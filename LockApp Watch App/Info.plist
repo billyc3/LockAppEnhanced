@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>WKApplication</key>
+    <true/>
+    <key>WKBackgroundModes</key>
+    <array>
+        <string>workout-processing</string>
+    </array>
+    <key>WKCompanionAppBundleIdentifier</key>
+    <string>com.yourdomain.LockApp</string>
+    <key>WKWatchKitApp</key>
+    <true/>
+    <key>NSUserActivityTypes</key>
+    <array>
+        <string>StartWorkoutAppIntent</string>
+    </array>
+    <key>INIntentsSupported</key>
+    <array>
+        <string>StartWorkoutAppIntent</string>
+    </array>
+</dict>
+</plist> 

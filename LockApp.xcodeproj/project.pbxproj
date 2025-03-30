@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0D5D282D97393D00782523 /* LockAppShared in Frameworks */ = {isa = PBXBuildFile; productRef = CA0D5D272D97393D00782523 /* LockAppShared */; };
+		CA1EB5502D999C2D008CCF9D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CA1EB54F2D999C26008CCF9D /* .gitignore */; };
+		CA3418332D972B2300CECEBF /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3418322D972B2200CECEBF /* WatchConnectivity.framework */; };
+		CA3418352D972B2C00CECEBF /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3418342D972B2C00CECEBF /* Intents.framework */; };
+		CA397C402D9429E300817405 /* LockApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CA397C3F2D9429E300817405 /* LockApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CA397C832D942A6500817405 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CA397C822D942A6500817405 /* Alamofire */; };
+		CA3AEAF02D9764750069C6A2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = CA3AEAEF2D9764750069C6A2 /* Alamofire */; };
+		CA3C3C372D97659700AEB1F3 /* LockAppShared in Frameworks */ = {isa = PBXBuildFile; productRef = CA3C3C362D97659700AEB1F3 /* LockAppShared */; };
+		CACEE9262D97099A00C902C5 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACEE9252D97099A00C902C5 /* WatchKit.framework */; };
+		CACEE9282D9709AD00C902C5 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACEE9272D9709AD00C902C5 /* WatchConnectivity.framework */; };
+		CAF820532D9734910012F932 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF820522D9734910012F932 /* AppIntents.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA397C2A2D9429E300817405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA397C112D9429DF00817405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA397C182D9429E100817405;
+			remoteInfo = LockApp;
+		};
+		CA397C342D9429E300817405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA397C112D9429DF00817405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA397C182D9429E100817405;
+			remoteInfo = LockApp;
+		};
+		CA397C412D9429E300817405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA397C112D9429DF00817405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA397C3E2D9429E300817405;
+			remoteInfo = "LockApp Watch App";
+		};
+		CA397C522D9429E500817405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA397C112D9429DF00817405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA397C3E2D9429E300817405;
+			remoteInfo = "LockApp Watch App";
+		};
+		CA397C5C2D9429E500817405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA397C112D9429DF00817405 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA397C3E2D9429E300817405;
+			remoteInfo = "LockApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA397C682D9429E500817405 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CA397C402D9429E300817405 /* LockApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA0D5D252D9738E800782523 /* LockAppShared */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LockAppShared; sourceTree = "<group>"; };
+		CA1EB54F2D999C26008CCF9D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CA3418322D972B2200CECEBF /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		CA3418342D972B2C00CECEBF /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.2.sdk/System/Library/Frameworks/Intents.framework; sourceTree = DEVELOPER_DIR; };
+		CA397C192D9429E100817405 /* LockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA397C292D9429E300817405 /* LockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA397C332D9429E300817405 /* LockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA397C3F2D9429E300817405 /* LockApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LockApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA397C512D9429E500817405 /* LockApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LockApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA397C5B2D9429E500817405 /* LockApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LockApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACEE9252D97099A00C902C5 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.2.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		CACEE9272D9709AD00C902C5 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.2.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		CAF820522D9734910012F932 /* AppIntents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppIntents.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.2.sdk/System/Library/Frameworks/AppIntents.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CA3418362D972CEA00CECEBF /* Exceptions for "LockApp Watch App" folder in "LockApp Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CA397C3E2D9429E300817405 /* LockApp Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA397C1B2D9429E100817405 /* LockApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LockApp;
+			sourceTree = "<group>";
+		};
+		CA397C2C2D9429E300817405 /* LockAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LockAppTests;
+			sourceTree = "<group>";
+		};
+		CA397C362D9429E300817405 /* LockAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LockAppUITests;
+			sourceTree = "<group>";
+		};
+		CA397C432D9429E300817405 /* LockApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA3418362D972CEA00CECEBF /* Exceptions for "LockApp Watch App" folder in "LockApp Watch App" target */,
+			);
+			path = "LockApp Watch App";
+			sourceTree = "<group>";
+		};
+		CA397C542D9429E500817405 /* LockApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LockApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CA397C5E2D9429E500817405 /* LockApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "LockApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA397C162D9429E100817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3418352D972B2C00CECEBF /* Intents.framework in Frameworks */,
+				CA397C832D942A6500817405 /* Alamofire in Frameworks */,
+				CA3C3C372D97659700AEB1F3 /* LockAppShared in Frameworks */,
+				CA3418332D972B2300CECEBF /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C262D9429E300817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C302D9429E300817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C3C2D9429E300817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3AEAF02D9764750069C6A2 /* Alamofire in Frameworks */,
+				CACEE9262D97099A00C902C5 /* WatchKit.framework in Frameworks */,
+				CACEE9282D9709AD00C902C5 /* WatchConnectivity.framework in Frameworks */,
+				CA0D5D282D97393D00782523 /* LockAppShared in Frameworks */,
+				CAF820532D9734910012F932 /* AppIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C4E2D9429E500817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C582D9429E500817405 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA397C102D9429DF00817405 = {
+			isa = PBXGroup;
+			children = (
+				CA1EB54F2D999C26008CCF9D /* .gitignore */,
+				CA0D5D252D9738E800782523 /* LockAppShared */,
+				CA397C1B2D9429E100817405 /* LockApp */,
+				CA397C2C2D9429E300817405 /* LockAppTests */,
+				CA397C362D9429E300817405 /* LockAppUITests */,
+				CA397C432D9429E300817405 /* LockApp Watch App */,
+				CA397C542D9429E500817405 /* LockApp Watch AppTests */,
+				CA397C5E2D9429E500817405 /* LockApp Watch AppUITests */,
+				CA397C812D942A6500817405 /* Frameworks */,
+				CA397C1A2D9429E100817405 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA397C1A2D9429E100817405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA397C192D9429E100817405 /* LockApp.app */,
+				CA397C292D9429E300817405 /* LockAppTests.xctest */,
+				CA397C332D9429E300817405 /* LockAppUITests.xctest */,
+				CA397C3F2D9429E300817405 /* LockApp Watch App.app */,
+				CA397C512D9429E500817405 /* LockApp Watch AppTests.xctest */,
+				CA397C5B2D9429E500817405 /* LockApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA397C812D942A6500817405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAF820522D9734910012F932 /* AppIntents.framework */,
+				CA3418342D972B2C00CECEBF /* Intents.framework */,
+				CACEE9272D9709AD00C902C5 /* WatchConnectivity.framework */,
+				CA3418322D972B2200CECEBF /* WatchConnectivity.framework */,
+				CACEE9252D97099A00C902C5 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA397C182D9429E100817405 /* LockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C692D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp" */;
+			buildPhases = (
+				CA397C152D9429E100817405 /* Sources */,
+				CA397C162D9429E100817405 /* Frameworks */,
+				CA397C172D9429E100817405 /* Resources */,
+				CA397C682D9429E500817405 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA397C422D9429E300817405 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C1B2D9429E100817405 /* LockApp */,
+			);
+			name = LockApp;
+			packageProductDependencies = (
+				CA397C822D942A6500817405 /* Alamofire */,
+				CA3C3C362D97659700AEB1F3 /* LockAppShared */,
+			);
+			productName = LockApp;
+			productReference = CA397C192D9429E100817405 /* LockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA397C282D9429E300817405 /* LockAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C6C2D9429E500817405 /* Build configuration list for PBXNativeTarget "LockAppTests" */;
+			buildPhases = (
+				CA397C252D9429E300817405 /* Sources */,
+				CA397C262D9429E300817405 /* Frameworks */,
+				CA397C272D9429E300817405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA397C2B2D9429E300817405 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C2C2D9429E300817405 /* LockAppTests */,
+			);
+			name = LockAppTests;
+			packageProductDependencies = (
+			);
+			productName = LockAppTests;
+			productReference = CA397C292D9429E300817405 /* LockAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA397C322D9429E300817405 /* LockAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C6F2D9429E500817405 /* Build configuration list for PBXNativeTarget "LockAppUITests" */;
+			buildPhases = (
+				CA397C2F2D9429E300817405 /* Sources */,
+				CA397C302D9429E300817405 /* Frameworks */,
+				CA397C312D9429E300817405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA397C352D9429E300817405 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C362D9429E300817405 /* LockAppUITests */,
+			);
+			name = LockAppUITests;
+			packageProductDependencies = (
+			);
+			productName = LockAppUITests;
+			productReference = CA397C332D9429E300817405 /* LockAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CA397C3E2D9429E300817405 /* LockApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C652D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch App" */;
+			buildPhases = (
+				CA397C3B2D9429E300817405 /* Sources */,
+				CA397C3C2D9429E300817405 /* Frameworks */,
+				CA397C3D2D9429E300817405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C432D9429E300817405 /* LockApp Watch App */,
+			);
+			name = "LockApp Watch App";
+			packageProductDependencies = (
+				CA0D5D272D97393D00782523 /* LockAppShared */,
+				CA3AEAEF2D9764750069C6A2 /* Alamofire */,
+			);
+			productName = "LockApp Watch App";
+			productReference = CA397C3F2D9429E300817405 /* LockApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA397C502D9429E500817405 /* LockApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C722D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch AppTests" */;
+			buildPhases = (
+				CA397C4D2D9429E500817405 /* Sources */,
+				CA397C4E2D9429E500817405 /* Frameworks */,
+				CA397C4F2D9429E500817405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA397C532D9429E500817405 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C542D9429E500817405 /* LockApp Watch AppTests */,
+			);
+			name = "LockApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "LockApp Watch AppTests";
+			productReference = CA397C512D9429E500817405 /* LockApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA397C5A2D9429E500817405 /* LockApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA397C752D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch AppUITests" */;
+			buildPhases = (
+				CA397C572D9429E500817405 /* Sources */,
+				CA397C582D9429E500817405 /* Frameworks */,
+				CA397C592D9429E500817405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA397C5D2D9429E500817405 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA397C5E2D9429E500817405 /* LockApp Watch AppUITests */,
+			);
+			name = "LockApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "LockApp Watch AppUITests";
+			productReference = CA397C5B2D9429E500817405 /* LockApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA397C112D9429DF00817405 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					CA397C182D9429E100817405 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CA397C282D9429E300817405 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA397C182D9429E100817405;
+					};
+					CA397C322D9429E300817405 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA397C182D9429E100817405;
+					};
+					CA397C3E2D9429E300817405 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					CA397C502D9429E500817405 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA397C3E2D9429E300817405;
+					};
+					CA397C5A2D9429E500817405 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = CA397C3E2D9429E300817405;
+					};
+				};
+			};
+			buildConfigurationList = CA397C142D9429DF00817405 /* Build configuration list for PBXProject "LockApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA397C102D9429DF00817405;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CA397C802D942A4C00817405 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CA0D5D262D97392B00782523 /* XCLocalSwiftPackageReference "LockAppShared" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA397C1A2D9429E100817405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA397C182D9429E100817405 /* LockApp */,
+				CA397C282D9429E300817405 /* LockAppTests */,
+				CA397C322D9429E300817405 /* LockAppUITests */,
+				CA397C3E2D9429E300817405 /* LockApp Watch App */,
+				CA397C502D9429E500817405 /* LockApp Watch AppTests */,
+				CA397C5A2D9429E500817405 /* LockApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA397C172D9429E100817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1EB5502D999C2D008CCF9D /* .gitignore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C272D9429E300817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C312D9429E300817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C3D2D9429E300817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C4F2D9429E500817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C592D9429E500817405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA397C152D9429E100817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C252D9429E300817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C2F2D9429E300817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C3B2D9429E300817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C4D2D9429E500817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA397C572D9429E500817405 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA397C2B2D9429E300817405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA397C182D9429E100817405 /* LockApp */;
+			targetProxy = CA397C2A2D9429E300817405 /* PBXContainerItemProxy */;
+		};
+		CA397C352D9429E300817405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA397C182D9429E100817405 /* LockApp */;
+			targetProxy = CA397C342D9429E300817405 /* PBXContainerItemProxy */;
+		};
+		CA397C422D9429E300817405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA397C3E2D9429E300817405 /* LockApp Watch App */;
+			targetProxy = CA397C412D9429E300817405 /* PBXContainerItemProxy */;
+		};
+		CA397C532D9429E500817405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA397C3E2D9429E300817405 /* LockApp Watch App */;
+			targetProxy = CA397C522D9429E500817405 /* PBXContainerItemProxy */;
+		};
+		CA397C5D2D9429E500817405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA397C3E2D9429E300817405 /* LockApp Watch App */;
+			targetProxy = CA397C5C2D9429E500817405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA397C632D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA397C642D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CA397C662D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LockApp Watch App/LockApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LockApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = test.LockApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		CA397C672D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LockApp Watch App/LockApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LockApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = test.LockApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		CA397C6A2D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LockApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CA397C6B2D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LockApp/Preview Content\"";
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LockApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA397C6D2D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockApp";
+			};
+			name = Debug;
+		};
+		CA397C6E2D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA397C702D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockApp;
+			};
+			name = Debug;
+		};
+		CA397C712D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.LockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LockApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA397C732D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.LockApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		CA397C742D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.LockApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LockApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LockApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+		CA397C762D9429E500817405 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.LockApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LockApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Debug;
+		};
+		CA397C772D9429E500817405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXYCQ8JB4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.LockApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "LockApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA397C142D9429DF00817405 /* Build configuration list for PBXProject "LockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C632D9429E500817405 /* Debug */,
+				CA397C642D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C652D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C662D9429E500817405 /* Debug */,
+				CA397C672D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C692D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C6A2D9429E500817405 /* Debug */,
+				CA397C6B2D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C6C2D9429E500817405 /* Build configuration list for PBXNativeTarget "LockAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C6D2D9429E500817405 /* Debug */,
+				CA397C6E2D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C6F2D9429E500817405 /* Build configuration list for PBXNativeTarget "LockAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C702D9429E500817405 /* Debug */,
+				CA397C712D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C722D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C732D9429E500817405 /* Debug */,
+				CA397C742D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA397C752D9429E500817405 /* Build configuration list for PBXNativeTarget "LockApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA397C762D9429E500817405 /* Debug */,
+				CA397C772D9429E500817405 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		CA0D5D262D97392B00782523 /* XCLocalSwiftPackageReference "LockAppShared" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = LockAppShared;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA397C802D942A4C00817405 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA0D5D272D97393D00782523 /* LockAppShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LockAppShared;
+		};
+		CA397C822D942A6500817405 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA397C802D942A4C00817405 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CA3AEAEF2D9764750069C6A2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA397C802D942A4C00817405 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		CA3C3C362D97659700AEB1F3 /* LockAppShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LockAppShared;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CA397C112D9429DF00817405 /* Project object */;
+}
