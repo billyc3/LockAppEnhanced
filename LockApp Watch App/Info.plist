@@ -4,21 +4,13 @@
 <dict>
     <key>WKApplication</key>
     <true/>
+    <key>WKSupportsActionButton</key>
+    <true/>
+    <key>WKCompanionAppBundleIdentifier</key>
+    <string>com.yourdomain.LockApp</string>
     <key>WKBackgroundModes</key>
     <array>
         <string>workout-processing</string>
     </array>
-    <key>WKCompanionAppBundleIdentifier</key>
-    <string>com.yourdomain.LockApp</string>
-    <key>WKWatchKitApp</key>
-    <true/>
-    <key>NSUserActivityTypes</key>
-    <array>
-        <string>StartWorkoutAppIntent</string>
-    </array>
-    <key>INIntentsSupported</key>
-    <array>
-        <string>StartWorkoutAppIntent</string>
-    </array>
 </dict>
-</plist> 
+</plist>

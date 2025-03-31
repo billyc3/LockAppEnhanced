@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA0D5D282D97393D00782523 /* LockAppShared in Frameworks */ = {isa = PBXBuildFile; productRef = CA0D5D272D97393D00782523 /* LockAppShared */; };
 		CA1EB5502D999C2D008CCF9D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CA1EB54F2D999C26008CCF9D /* .gitignore */; };
 		CA3418332D972B2300CECEBF /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3418322D972B2200CECEBF /* WatchConnectivity.framework */; };
 		CA3418352D972B2C00CECEBF /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3418342D972B2C00CECEBF /* Intents.framework */; };
@@ -18,6 +17,7 @@
 		CACEE9262D97099A00C902C5 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACEE9252D97099A00C902C5 /* WatchKit.framework */; };
 		CACEE9282D9709AD00C902C5 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACEE9272D9709AD00C902C5 /* WatchConnectivity.framework */; };
 		CAF820532D9734910012F932 /* AppIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF820522D9734910012F932 /* AppIntents.framework */; };
+		CAF858BB2D9B5783000820A3 /* LockAppShared in Frameworks */ = {isa = PBXBuildFile; productRef = CAF858BA2D9B5783000820A3 /* LockAppShared */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,7 +167,7 @@
 				CA3AEAF02D9764750069C6A2 /* Alamofire in Frameworks */,
 				CACEE9262D97099A00C902C5 /* WatchKit.framework in Frameworks */,
 				CACEE9282D9709AD00C902C5 /* WatchConnectivity.framework in Frameworks */,
-				CA0D5D282D97393D00782523 /* LockAppShared in Frameworks */,
+				CAF858BB2D9B5783000820A3 /* LockAppShared in Frameworks */,
 				CAF820532D9734910012F932 /* AppIntents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +322,8 @@
 			);
 			name = "LockApp Watch App";
 			packageProductDependencies = (
-				CA0D5D272D97393D00782523 /* LockAppShared */,
 				CA3AEAEF2D9764750069C6A2 /* Alamofire */,
+				CAF858BA2D9B5783000820A3 /* LockAppShared */,
 			);
 			productName = "LockApp Watch App";
 			productReference = CA397C3F2D9429E300817405 /* LockApp Watch App.app */;
@@ -609,10 +609,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -664,9 +666,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -1062,10 +1066,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CA0D5D272D97393D00782523 /* LockAppShared */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LockAppShared;
-		};
 		CA397C822D942A6500817405 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = CA397C802D942A4C00817405 /* XCRemoteSwiftPackageReference "Alamofire" */;
@@ -1078,6 +1078,11 @@
 		};
 		CA3C3C362D97659700AEB1F3 /* LockAppShared */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = LockAppShared;
+		};
+		CAF858BA2D9B5783000820A3 /* LockAppShared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA0D5D262D97392B00782523 /* XCLocalSwiftPackageReference "LockAppShared" */;
 			productName = LockAppShared;
 		};
 /* End XCSwiftPackageProductDependency section */

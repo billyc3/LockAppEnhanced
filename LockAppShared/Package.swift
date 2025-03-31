@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "LockAppShared",
     platforms: [
-        .iOS(.v15),
+        .iOS(.v16),
         .watchOS(.v8),
         .macOS(.v12)
     ],
