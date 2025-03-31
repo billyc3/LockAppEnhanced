@@ -53,8 +53,8 @@ struct StartWorkoutAppIntent: AppIntent {
     
     @MainActor
     func perform() async throws -> some IntentResult {
-        // Check if credentials are set
-        guard KeychainHelper.areCredentialsSet() else {
+        // Check if credentials are set with the correct service and accounts
+        guard KeychainHelper.areCredentialsSet(service: "LockAppService", accounts: ["apiKey", "deviceId"]) else {
             throw AppIntentError.credentialsNotFound
         }
         

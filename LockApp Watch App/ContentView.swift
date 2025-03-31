@@ -62,7 +62,7 @@ struct ContentView: View {
 
     private func checkCredentials() {
         print("Checking credentials...")
-        credentialsSet = KeychainHelper.areCredentialsSet()
+        credentialsSet = KeychainHelper.areCredentialsSet(service: "LockAppService", accounts: ["apiKey", "deviceId"])
         print("Credentials set: \(credentialsSet)")
         if credentialsSet {
             print("Fetching lock status...")
